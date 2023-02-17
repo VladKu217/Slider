@@ -1,0 +1,64 @@
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  height: 400px;
+  padding: 20px;
+  background-color: rgb(238, 234, 162);
+  margin: 30px auto;
+}
+
+.slider {
+  width: 250px;
+  height: 188px;
+  border: 1px solid black;
+  margin: auto auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  width: 1000px;
+  height: 188px;
+  background-color: crimson;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slider-next {
+  border: none;
+  background-color: rgb(194, 20, 221);
+  color: white;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  font-size: 16px;
+  border-radius: 7px;
+  box-shadow: 9px 6px 7px rgba(10, 141, 201, 0.902);
+}
+.slider-prev {
+  border: none;
+  background-color: rgb(194, 20, 221);
+  color: white;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 350px;
+  font-size: 16px;
+  border-radius: 7px;
+  box-shadow: 9px 6px 7px rgba(10, 141, 201, 0.902);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: chocolate;
+}
+button:active {
+  background-color: rgb(239, 9, 9);
+}
